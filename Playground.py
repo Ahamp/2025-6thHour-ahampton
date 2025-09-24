@@ -11,7 +11,7 @@ num_list.sort(reverse=True)
 print(num_list)
 empty_list=[]
 print(empty_list)
-name_list2=["Aaden", "Devon", "Dyson", "Carter", "kevin", "Carlos", "Aiden", "Brennlyn", "Benjamin", "Kiah", Annie]
+name_list2=["Aaden", "Devon", "Dyson", "Carter", "kevin", "Carlos", "Aiden", "Brennlyn", "Benjamin", "Kiah", "Annie"]
 print(name_list2)
 name_list2.remove(random.choice(name_list2))
 print(name_list2)
