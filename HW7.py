@@ -43,7 +43,7 @@ sixth_hour_class={
 },
 }
 #9. Print the names of all three classmates on the same line.
-print(sixth_hour_class["student_1"]["Name"], sixth_hour_class["student_2"]["Name"], sixth_hour_class["student_3"]["Name"])
+print(sixth_hour_class["student_3"]["Name"], sixth_hour_class["student_3"]["Name"], sixth_hour_class["student_3"]["Name"])
 #10. Use the pop function to remove one of the nested dictionaries inside and print the full dictionary from #8.
-sixth_hour_class.pop("student_3")
-print(sixth_hour_class)
+sixth_hour_class["student_3"].pop("Name")
+print(sixth_hour_class["student_3"])
